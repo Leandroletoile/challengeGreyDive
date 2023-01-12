@@ -1,6 +1,5 @@
 import { useState } from "react"
-import { useNavigate } from "react-router-dom";
-import { Header } from "../components/Header";
+import { useNavigate } from "react-router-dom"
 import { FetchDb } from "../helpers/FetchDb"
 
 

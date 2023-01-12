@@ -19,4 +19,4 @@ export const FetchDb = (array, setArray, collectionName = "") => {
   }, []);
 
   return array
-};
+}
