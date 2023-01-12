@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Peralta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #580066;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  color: white;
+  font-size: 1.3rem;
+}
+
+form {
+  width: min(90vw, 600px);
+  margin: 0 auto;
+}
+
+.tableInfo {
+  width: min(90vw, 800px);
+  margin-bottom: 4rem;
+}
+
+header {
+  margin-bottom: 3.5rem;
+  margin-top: -2rem;
+  height: 22.5vh;
+  width: 100vw;
+  background-color: #181818;
+}
+
+header img {
+  height: 10vh;
+  width: 45vh;
+}
+
+.btnSubmit {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  background: #d30070;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 1.2rem;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btnSubmit:hover {
+  color: white;
+}
