@@ -22,7 +22,6 @@ export const FormPage = () => {
 
   const onCaptchaState = () => {
     setCaptchaState(true)
-    console.log(captchaState)
   }
 
 
